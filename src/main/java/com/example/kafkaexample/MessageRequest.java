@@ -1,4 +1,4 @@
 package com.example.kafkaexample;
 
-public record MessageRequest(String message) {
+public record MessageRequest(Integer Id, String message) {
 }
